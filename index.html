@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brewed & Co. — A premium artisan cafe experience. Handcrafted coffee, intimate atmosphere, and unforgettable flavors since 2008." />
+  <title>Brewed &amp; Co. — Premium Artisan Cafe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container nav-inner">
+
+      <a href="#hero" class="nav-logo" aria-label="Brewed & Co. home">
+        <span class="nav-logo-name">Brewed &amp; Co.</span>
+        <span class="nav-logo-tag">Artisan Coffee House</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#craft">Craft</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#reservation">Reserve</a>
+      </nav>
+
+      <a href="#reservation" class="btn btn-primary nav-reserve">Book a Table</a>
+
+      <button id="nav-hamburger" class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <nav id="nav-drawer" class="nav-drawer" aria-label="Mobile navigation">
+    <a href="#about">Our Story</a>
+    <a href="#menu">Menu</a>
+    <a href="#craft">Craft</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#reservation">Reserve</a>
+  </nav>
+
+  <main>
+
+    <!-- ═══════════════════════════════════
+         HERO
+    ════════════════════════════════════ -->
+    <section id="hero" aria-label="Hero">
+      <div class="hero-bg" role="img" aria-label="Warm interior of Brewed & Co. cafe"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-overlay-bottom" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Since 2008 · London, UK</p>
+          <h1 class="hero-title">
+            Where Every Cup<br>
+            <em>Tells a Story</em>
+          </h1>
+          <p class="hero-subtitle">
+            Hand-selected single-origin beans, roasted to perfection.
+            A sanctuary of flavour where slow mornings become lasting memories.
+          </p>
+          <div class="hero-cta">
+            <a href="#menu" class="btn btn-primary" id="explore-menu-btn">Explore Our Menu</a>
+            <a href="#about" class="btn btn-outline" id="our-story-btn">Our Story</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating info badges -->
+      <div class="hero-badge hero-badge-1" aria-hidden="true">
+        <div class="hero-badge-val">4.9★</div>
+        <div class="hero-badge-lbl">Guest Rating</div>
+      </div>
+      <div class="hero-badge hero-badge-2" aria-hidden="true">
+        <div class="hero-badge-val">12k+</div>
+        <div class="hero-badge-lbl">Happy Guests</div>
+      </div>
+
+      <a href="#about" class="hero-scroll" aria-label="Scroll down">
+        <div class="hero-scroll-line"></div>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         EXPERIENCE STRIP
+    ════════════════════════════════════ -->
+    <div id="experience-strip" aria-hidden="true">
+      <div class="strip-track">
+        <!-- Items duplicated for seamless loop -->
+        <div class="strip-item"><span class="dot"></span>Single-Origin Beans</div>
+        <div class="strip-item"><span class="dot"></span>Artisan Roasting</div>
+        <div class="strip-item"><span class="dot"></span>Award-Winning Baristas</div>
+        <div class="strip-item"><span class="dot"></span>Seasonal Menus</div>
+        <div class="strip-item"><span class="dot"></span>Specialty Blends</div>
+        <div class="strip-item"><span class="dot"></span>Cosy Atmosphere</div>
+        <div class="strip-item"><span class="dot"></span>Live Jazz Weekends</div>
+        <div class="strip-item"><span class="dot"></span>Private Events</div>
+        <!-- duplicate -->
+        <div class="strip-item"><span class="dot"></span>Single-Origin Beans</div>
+        <div class="strip-item"><span class="dot"></span>Artisan Roasting</div>
+        <div class="strip-item"><span class="dot"></span>Award-Winning Baristas</div>
+        <div class="strip-item"><span class="dot"></span>Seasonal Menus</div>
+        <div class="strip-item"><span class="dot"></span>Specialty Blends</div>
+        <div class="strip-item"><span class="dot"></span>Cosy Atmosphere</div>
+        <div class="strip-item"><span class="dot"></span>Live Jazz Weekends</div>
+        <div class="strip-item"><span class="dot"></span>Private Events</div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════
+         ABOUT
+    ════════════════════════════════════ -->
+    <section id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Images -->
+          <div class="about-image-wrap reveal">
+            <img
+              src="assets/images/about_interior.jpg"
+              alt="The warm, candlelit interior of Brewed & Co."
+              class="about-img-main"
+              loading="lazy"
+            />
+            <img
+              src="assets/images/experience_coffee.jpg"
+              alt="A perfectly crafted latte"
+              class="about-img-accent"
+              loading="lazy"
+            />
+            <div class="about-year-badge" aria-hidden="true">
+              <div class="year">16</div>
+              <div class="since">Years of Craft</div>
+            </div>
+          </div>
+
+          <!-- Text -->
+          <div class="about-text">
+            <p class="section-label">Our Story</p>
+            <h2 class="section-title reveal" id="about-title">
+              More Than Coffee —<br><em>A Way of Life</em>
+            </h2>
+            <p class="reveal reveal-delay-1">
+              Brewed &amp; Co. was born in a narrow street in East London with one
+              espresso machine, two mismatched chairs, and an obsession with
+              extraordinary coffee. Sixteen years later, the obsession remains.
+            </p>
+            <p class="reveal reveal-delay-2">
+              Every bean we source has a story — from the high-altitude farms of
+              Ethiopia's Yirgacheffe to the volcanic slopes of Guatemala. We roast
+              in small batches to honour those stories in every sip.
+            </p>
+
+            <!-- Stats -->
+            <div class="about-stats reveal reveal-delay-3">
+              <div>
+                <div class="stat-val" data-target="16" data-suffix="+">0+</div>
+                <div class="stat-lbl">Years of craft</div>
+              </div>
+              <div>
+                <div class="stat-val" data-target="28" data-suffix="">0</div>
+                <div class="stat-lbl">Unique blends</div>
+              </div>
+              <div>
+                <div class="stat-val" data-target="12" data-suffix="k+">0k+</div>
+                <div class="stat-lbl">Happy guests</div>
+              </div>
+            </div>
+
+            <a href="#reservation" class="btn btn-primary reveal reveal-delay-4" id="about-reserve-btn">
+              Reserve a Table
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         MENU
+    ════════════════════════════════════ -->
+    <section id="menu" aria-labelledby="menu-title">
+      <div class="container">
+
+        <div class="menu-header">
+          <p class="section-label reveal">Signature Offerings</p>
+          <h2 class="section-title reveal reveal-delay-1" id="menu-title">
+            Crafted With<br><em>Intention</em>
+          </h2>
+        </div>
+
+        <!-- Filter tabs -->
+        <div class="menu-tabs reveal reveal-delay-2" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab active" data-tab="all" role="tab" aria-selected="true" id="tab-all">All</button>
+          <button class="menu-tab" data-tab="espresso" role="tab" aria-selected="false" id="tab-espresso">Espresso</button>
+          <button class="menu-tab" data-tab="cold" role="tab" aria-selected="false" id="tab-cold">Cold Brew</button>
+          <button class="menu-tab" data-tab="milk" role="tab" aria-selected="false" id="tab-milk">Milk Based</button>
+        </div>
+
+        <!-- Cards -->
+        <div class="menu-grid">
+
+          <article class="menu-card reveal" data-category="espresso">
+            <div class="menu-card-img-wrap">
+              <img
+                src="assets/images/menu_espresso.jpg"
+                alt="Double Espresso"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <span class="menu-card-badge">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-name">Double Espresso</h3>
+              <p class="menu-card-desc">
+                Two concentrated shots of our signature house blend —
+                bold, bright, and deeply aromatic.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-card-price">£3.50</span>
+                <button class="menu-card-add btn" aria-label="Add Double Espresso to order">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card reveal reveal-delay-1" data-category="milk">
+            <div class="menu-card-img-wrap">
+              <img
+                src="assets/images/menu_cappuccino.jpg"
+                alt="Artisan Cappuccino"
+                class="menu-card-img"
+                loading="lazy"
+              />
+              <span class="menu-card-badge">Staff Pick</span>
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-name">Artisan Cappuccino</h3>
+              <p class="menu-card-desc">
+                Silky micro-foam poured over a rich espresso base,
+                finished with hand-drawn latte art.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-card-price">£4.20</span>
+                <button class="menu-card-add btn" aria-label="Add Artisan Cappuccino to order">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card reveal reveal-delay-2" data-category="cold">
+            <div class="menu-card-img-wrap">
+              <img
+                src="assets/images/menu_coldbrew.jpg"
+                alt="24-Hour Cold Brew"
+                class="menu-card-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="menu-card-body">
+              <h3 class="menu-card-name">24-Hour Cold Brew</h3>
+              <p class="menu-card-desc">
+                Steeped for a full day in filtered water — smooth, chocolatey,
+                and naturally sweet with zero bitterness.
+              </p>
+              <div class="menu-card-footer">
+                <span class="menu-card-price">£5.00</span>
+                <button class="menu-card-add btn" aria-label="Add Cold Brew to order">+</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align:center; margin-top:3rem;" class="reveal">
+          <a href="#reservation" class="btn btn-outline" id="full-menu-btn">View Full Menu →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         CRAFT / EXPERIENCE
+    ════════════════════════════════════ -->
+    <section id="craft" aria-labelledby="craft-title">
+      <div class="craft-img-side">
+        <img
+          src="assets/images/experience_coffee.jpg"
+          alt="Barista crafting a specialty coffee"
+          loading="lazy"
+        />
+      </div>
+      <div class="craft-text-side">
+        <div>
+          <p class="section-label reveal">The Brewed &amp; Co. Way</p>
+          <h2 class="section-title reveal reveal-delay-1" id="craft-title">
+            Precision in<br><em>Every Pour</em>
+          </h2>
+          <div class="craft-features">
+            <div class="craft-feature reveal reveal-delay-1">
+              <div class="craft-icon" aria-hidden="true">☕</div>
+              <div>
+                <h4>Direct Trade Sourcing</h4>
+                <p>We visit farms annually, building lasting relationships with
+                   growers who share our commitment to quality and sustainability.</p>
+              </div>
+            </div>
+            <div class="craft-feature reveal reveal-delay-2">
+              <div class="craft-icon" aria-hidden="true">🔥</div>
+              <div>
+                <h4>Small-Batch Roasting</h4>
+                <p>Our head roaster develops each profile by hand, roasting in
+                   micro batches to maximise complexity and freshness.</p>
+              </div>
+            </div>
+            <div class="craft-feature reveal reveal-delay-3">
+              <div class="craft-icon" aria-hidden="true">🏆</div>
+              <div>
+                <h4>Award-Winning Baristas</h4>
+                <p>Our team trains weekly and competes nationally — every cup
+                   is made by someone who has dedicated their craft to coffee.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         TESTIMONIALS
+    ════════════════════════════════════ -->
+    <section id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="testimonials-header">
+          <p class="section-label reveal">Guest Voices</p>
+          <h2 class="section-title reveal reveal-delay-1" id="testimonials-title">
+            Stories From Our <em>Community</em>
+          </h2>
+        </div>
+
+        <div class="testimonials-track-wrap">
+          <div class="testimonials-track">
+
+            <div class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "The cappuccino here is the best I've had outside of Naples.
+                The atmosphere feels like a warm hug on a grey morning."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">SR</div>
+                <div>
+                  <div class="author-name">Sophie R.</div>
+                  <div class="author-role">Regular guest since 2019</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "I host all my client meetings here. The space is beautiful,
+                the coffee is exceptional, and the staff always remember my name."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">JM</div>
+                <div>
+                  <div class="author-name">James M.</div>
+                  <div class="author-role">Entrepreneur</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "The cold brew is absolutely transcendent — complex, smooth,
+                and completely unlike anything else in London."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">AL</div>
+                <div>
+                  <div class="author-name">Amara L.</div>
+                  <div class="author-role">Food critic &amp; blogger</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="testimonial-quote">
+                "We had our anniversary dinner here and the team went above
+                and beyond. An evening I will never forget."
+              </p>
+              <div class="testimonial-author">
+                <div class="author-avatar" aria-hidden="true">TK</div>
+                <div>
+                  <div class="author-name">Tom &amp; Kate</div>
+                  <div class="author-role">Anniversary guests</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Carousel dots -->
+        <div class="testimonials-controls" role="tablist" aria-label="Testimonial navigation">
+          <button class="t-dot active" role="tab" aria-label="Testimonial 1" id="t-dot-0"></button>
+          <button class="t-dot" role="tab" aria-label="Testimonial 2" id="t-dot-1"></button>
+          <button class="t-dot" role="tab" aria-label="Testimonial 3" id="t-dot-2"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════
+         RESERVATION
+    ════════════════════════════════════ -->
+    <section id="reservation" aria-labelledby="reservation-title">
+      <div class="container">
+        <div class="reservation-wrap">
+
+          <!-- Info side -->
+          <div class="reservation-info">
+            <p class="section-label reveal">Visit Us</p>
+            <h2 class="section-title reveal reveal-delay-1" id="reservation-title">
+              Reserve Your<br><em>Moment</em>
+            </h2>
+            <p class="reveal reveal-delay-2">
+              Whether it's a quiet morning espresso or a special celebration,
+              we'd love to welcome you. Reservations ensure you get the best
+              seat in the house.
+            </p>
+
+            <div class="info-items reveal reveal-delay-3">
+              <div class="info-item">
+                <div class="info-icon" aria-hidden="true">📍</div>
+                <div>
+                  <div class="info-label">Address</div>
+                  <div class="info-value">14 Maltby Street, London SE1 3PA</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon" aria-hidden="true">🕐</div>
+                <div>
+                  <div class="info-label">Opening Hours</div>
+                  <div class="info-value">Mon – Fri: 7:00 AM – 9:00 PM</div>
+                  <div class="info-value">Sat – Sun: 8:00 AM – 10:00 PM</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon" aria-hidden="true">📞</div>
+                <div>
+                  <div class="info-label">Phone</div>
+                  <div class="info-value">+44 20 7946 0321</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form side -->
+          <div class="reservation-form reveal reveal-delay-2">
+            <h3>Make a Reservation</h3>
+
+            <form id="reservation-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="res-name">Full Name</label>
+                  <input
+                    type="text"
+                    id="res-name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="res-email">Email</label>
+                  <input
+                    type="email"
+                    id="res-email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="res-date">Date</label>
+                  <input
+                    type="date"
+                    id="res-date"
+                    name="date"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="res-time">Time</label>
+                  <select id="res-time" name="time" required>
+                    <option value="" disabled selected>Select time</option>
+                    <option>7:00 AM</option>
+                    <option>8:00 AM</option>
+                    <option>9:00 AM</option>
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>1:00 PM</option>
+                    <option>2:00 PM</option>
+                    <option>3:00 PM</option>
+                    <option>4:00 PM</option>
+                    <option>5:00 PM</option>
+                    <option>6:00 PM</option>
+                    <option>7:00 PM</option>
+                    <option>8:00 PM</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="res-guests">Number of Guests</label>
+                <select id="res-guests" name="guests" required>
+                  <option value="" disabled selected>Select guests</option>
+                  <option>1 Guest</option>
+                  <option>2 Guests</option>
+                  <option>3 Guests</option>
+                  <option>4 Guests</option>
+                  <option>5 Guests</option>
+                  <option>6+ Guests (private event)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="res-notes">Special Requests</label>
+                <textarea
+                  id="res-notes"
+                  name="notes"
+                  placeholder="Dietary requirements, occasion, seating preference…"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit" id="form-submit-btn">
+                Reserve My Table
+              </button>
+
+              <div id="form-toast" class="form-toast" role="alert" aria-live="polite">
+                ✓ &nbsp; Your reservation has been confirmed! We'll email you shortly.
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════
+       FOOTER
+  ════════════════════════════════════ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer-brand-name">Brewed &amp; Co.</div>
+          <p class="footer-brand-desc">
+            A sanctuary for coffee lovers. Hand-crafted, thoughtfully sourced,
+            and served with genuine hospitality since 2008.
+          </p>
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter / X">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#craft">The Craft</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#reservation">Reservations</a></li>
+          </ul>
+        </div>
+
+        <!-- Offerings -->
+        <div class="footer-col">
+          <h4>Offerings</h4>
+          <ul>
+            <li><a href="#menu">Espresso &amp; Filter</a></li>
+            <li><a href="#menu">Cold Brew</a></li>
+            <li><a href="#menu">Seasonal Specials</a></li>
+            <li><a href="#reservation">Private Events</a></li>
+            <li><a href="#reservation">Gift Cards</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+442079460321">+44 20 7946 0321</a></li>
+            <li><a href="mailto:hello@brewedandco.com">hello@brewedandco.com</a></li>
+            <li><a href="#reservation">14 Maltby Street</a></li>
+            <li><a href="#reservation">London SE1 3PA</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          &copy; 2024 <span>Brewed &amp; Co.</span> — All rights reserved.
+        </p>
+        <p class="footer-copy">
+          Crafted with <span>♥</span> in London
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
